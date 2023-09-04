@@ -1,0 +1,8 @@
+.container {
+  background-image: url(../../assets/images/Shishkin,_Ivan_-_Morning_in_a_Pine_Forest.jpg);
+  display: flex;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
