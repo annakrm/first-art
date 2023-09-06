@@ -11,10 +11,8 @@ export const App: FC = () => {
   return (
     <div className={styles.app}>
       <Routes>
-        <Route path="/" element={<Header />}>
           <Route path="/" element={<Main />} />
           <Route path="/favorites" element={<Favorites />} />
-        </Route>
       </Routes>
       
     </div>

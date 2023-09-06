@@ -1,11 +1,20 @@
 import React from 'react';
 import styles from "./Main.module.css";
+import { NavLink, Outlet } from 'react-router-dom';
 
 export const Main = () => {
     return (
+      <>
       <div className={styles.container}>
-          <h1>Welcome to Art</h1>
+        <div className={styles.navbar_container}>
+            <div className={styles.navbar}>
+              <NavLink className={styles.link} to="/">Gallery</NavLink>
+              <NavLink className={styles.link}to="/favorites">Favorites</NavLink>
+            </div>
+          </div>
+          <p className={styles.title}><span>Welcome to</span><span className={styles.subtitle}>Art</span></p>
       </div>
+      </>
     );
 }
 
