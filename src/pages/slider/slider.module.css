@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  height: 1084px;
+  background-color: #E5E5E5;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.central_container {
+  display: flex;
+  width: 1100px;
+  height: 770px;
+  background-color: #D9D9D9;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info {
+  padding-bottom: 54px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Iowan Old Style', Arial, sans-serif;
+  color: #393939;
+}
+
+.content {
+  background-image: url(../../assets/images/Ivan_Shishkin_-_Рожь_-_Google_Art_Project.jpg);
+  width: 1070px;
+  height: 604px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom:20px;
+}
+
+.artist_name {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Iowan Old Style', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom:5px;
+}
+
+.painting_name {
+  font-weight: bold;
+  font-family: 'Iowan Old Style', Arial, sans-serif;
+}

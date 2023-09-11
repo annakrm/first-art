@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./Main.module.css";
 import { NavLink, Outlet } from 'react-router-dom';
+import { Slider } from '../slider';
+import { Footer } from '../footer';
 
 export const Main = () => {
     return (
@@ -14,6 +16,9 @@ export const Main = () => {
           </div>
           <p className={styles.title}><span>Welcome to</span><span className={styles.subtitle}>Art</span></p>
       </div>
+
+      <Slider/>
+      <Footer/>
       </>
     );
 }
