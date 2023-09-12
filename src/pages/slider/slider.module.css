@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .central_container {
@@ -46,4 +47,15 @@
 .painting_name {
   font-weight: bold;
   font-family: 'Iowan Old Style', Arial, sans-serif;
+}
+
+.arrow {
+  display: flex;
+  position: absolute;
+  right: 35px;
+}
+
+.like {
+  display: flex;
+  margin: 20px;
 }
