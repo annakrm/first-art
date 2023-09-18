@@ -1,4 +1,4 @@
-.container {
+.slider_container {
   display: flex;
   height: 1084px;
   background-color: #E5E5E5;
@@ -6,6 +6,19 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
+}
+
+.images_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 1070px;
+  height: 604px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
 }
 
 .central_container {
@@ -27,13 +40,27 @@
   color: #393939;
 }
 
-.content {
+
+/* .content {
   background-image: url(../../assets/images/Ivan_Shishkin_-_Рожь_-_Google_Art_Project.jpg);
   width: 1070px;
   height: 604px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom:20px;
+}
+*/
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imagesinfo_container {
+  display: flex;
+  flex-direction: column;
 }
 
 .artist_name {
@@ -44,18 +71,55 @@
   margin-bottom:5px;
 }
 
+.artist_name_hidden {
+  display: none;
+}
+
 .painting_name {
   font-weight: bold;
   font-family: 'Iowan Old Style', Arial, sans-serif;
+}
+
+.painting_name_hidden {
+  display: none;
 }
 
 .arrow {
   display: flex;
   position: absolute;
   right: 35px;
+  transition: opacity 0.2s;
+}
+
+.arrow:hover {
+  opacity: 0.5;
 }
 
 .like {
   display: flex;
   margin: 20px;
+}
+
+.right_arrow {
+  display: flex;
+  position: absolute;
+  right: 35px;
+  cursor: pointer;
+}
+
+.left_arrow {
+  display: flex;
+  position: absolute;
+  left: 35px;
+  cursor: pointer;
+}
+
+.slide {
+  width: 1070px;
+  height: 604px;
+  object-fit: contain;
+}
+
+.slide_hidden {
+  display: none;
 }

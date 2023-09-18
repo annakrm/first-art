@@ -4,7 +4,17 @@ import { NavLink, Outlet } from 'react-router-dom';
 import { Slider } from '../slider';
 import { Footer } from '../footer';
 
+import { slides } from "../../data";
+
 export const Main = () => {
+  console.log(slides)
+
+  const test = {
+      five: 5
+    }
+
+    console.log(test.five)
+
     return (
       <>
       <div className={styles.container}>
@@ -17,7 +27,7 @@ export const Main = () => {
           <p className={styles.title}><span>Welcome to</span><span className={styles.subtitle}>Art</span></p>
       </div>
 
-      <Slider/>
+      <Slider data={slides} />
       <Footer/>
       </>
     );
