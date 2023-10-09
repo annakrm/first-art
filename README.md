@@ -1,7 +1,21 @@
-First Art
+# First Art
 
-Проект, посвященный изобразительному искусству 19 века в России.
+**🛠 Project status: In progress**
 
-Технологии: HTML, CSS.
+## About
 
-Находится в разработке.
+Portal dedicated to the art of the 19th century in Russia.
+
+## Stack
+
+- HTML5 & CSS3
+- Java Script
+- React
+
+## Setup
+
+Make sure you have node and npm installed, then run:
+```
+npm install
+
+```
